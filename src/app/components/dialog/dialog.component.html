@@ -1,0 +1,32 @@
+<h2 mat-dialog-title>Available Services</h2>
+<mat-dialog-content class="mat-typography">
+    <div class="p-4 md:p-5">
+        <ul class="space-y-4 mb-4">
+            @for (service of services(); track $index) {
+            <li>
+                <input type="radio" id="job-1" name="job" value="job-1" class="hidden peer" required />
+
+                <label for="job-1"
+                    class="inline-flex items-center justify-between w-full text-gray-900 bg-white border border-gray-200 rounded-lg dark:hover:text-gray-300 dark:border-gray-500 dark:peer-checked:text-blue-500 hover:text-gray-900 hover:bg-gray-100 dark:text-white dark:bg-gray-600 dark:hover:bg-gray-500">
+                    <div class="block w-full">
+                        <div class="flex items-center content-between px-3">
+                            <label for="vue-checkbox"
+                                class="w-full py-3 text-sm font-medium text-gray-900 dark:text-gray-300">{{service.name}}</label>
+                            <mat-icon class="cursor-pointer" (click)="onAddService(service)">add</mat-icon>
+                        </div>
+                    </div>
+                </label>
+            </li>
+            }
+        </ul>
+        @if (services().length === 0) {
+        <p class="text-center text-black">
+            No Services Available here
+        </p>
+        }
+    </div>
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>close</button>
+</mat-dialog-actions>

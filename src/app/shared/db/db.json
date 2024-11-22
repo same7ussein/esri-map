@@ -1,0 +1,72 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "name": "Plumbing Service",
+      "latitude": 30.0444,
+      "longitude": 31.2357
+    },
+    {
+      "id": "2",
+      "name": "Electrical Service",
+      "latitude": 31.2001,
+      "longitude": 29.9187
+    },
+    {
+      "id": "3",
+      "name": "Cleaning Service",
+      "latitude": 27.2579,
+      "longitude": 33.8129
+    },
+    {
+      "id": "4",
+      "name": "Carpentry Service",
+      "latitude": 30.0131,
+      "longitude": 31.2089
+    },
+    {
+      "id": "5",
+      "name": "Gardening Service",
+      "latitude": 29.9753,
+      "longitude": 31.1313
+    },
+    {
+      "id": "6",
+      "name": "IT Support",
+      "latitude": 31.0392,
+      "longitude": 31.3785
+    },
+    {
+      "id": "7",
+      "name": "AC Repair",
+      "latitude": 30.8014,
+      "longitude": 28.9549
+    },
+    {
+      "id": "8",
+      "name": "Painting Service",
+      "latitude": 26.8206,
+      "longitude": 30.8025
+    },
+    {
+      "id": "9",
+      "name": "Pest Control",
+      "latitude": 28.1099,
+      "longitude": 30.8014
+    },
+    {
+      "id": "10",
+      "name": "Security Systems",
+      "latitude": 31.2156,
+      "longitude": 29.9553
+    }
+  ],
+  "userServices": [
+    {
+      "id": "5",
+      "name": "Gardening Service",
+      "latitude": 29.9753,
+      "longitude": 31.1313
+    }
+  ]
+}
